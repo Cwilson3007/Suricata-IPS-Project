@@ -14,7 +14,7 @@ This project demonstrates how to deploy and configure Suricata as an Intrusion D
 - **Operating System:** Ubuntu 22.04
 - **IDS/IPS Engine:** Suricata
 - **Utilities:** `ping`, `ssh`
-- **Log Files:** `fast.log`, `eve.json`
+- **Log Files:** `fast.log`
 - **Editors:** Nano, Vim
 - **Scripting:** Bash
 
@@ -100,16 +100,14 @@ for i in {1..6}; do ssh user@localhost; done
 After the simulation, verify SSH brute force alerts by running:
 ```
 sudo cat /var/log/suricata/fast.log
-sudo cat /var/log/suricata/eve.json | jq '.alert'
 ```
 ![Description of Image](screenshots/screenshot_08_ssh_alert.png)  
-![Description of Image](screenshots/screenshot_09_json_logs.png)  
 
 ## 📊 Findings and Conclusion
 
 * Suricata successfully detected ICMP and SSH brute-force attempts.
 * Custom rules effectively triggered alerts.
-* Log files (fast.log and eve.json) provided detailed evidence of the attacks.
+* Log files (fast.log) provided detailed evidence of the attacks.
 * This project demonstrates practical skills in network security monitoring, log analysis, and rule creation.
 
 ## 🚀 Next Steps
