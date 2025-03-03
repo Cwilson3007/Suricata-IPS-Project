@@ -1,7 +1,7 @@
 ### 🚀 Suricata IPS Project
 
 ## 📝 Overview
-This project demonstrates how to deploy and configure Suricata as an Intrusion Prevention System (IPS) on Ubuntu 22.04. It covers installation, custom rule creation, attack simulation, and log analysis. Follow the steps below to set up the system and verify its functionality.
+This project demonstrates how to deploy and configure Suricata as an Intrusion Detection System (IDS) on Ubuntu 22.04. It covers installation, custom rule creation, attack simulation, and log analysis. Follow the steps below to set up the system and verify its functionality.
 
 ## 🎯 Objectives
 - Install and configure Suricata on Ubuntu.
