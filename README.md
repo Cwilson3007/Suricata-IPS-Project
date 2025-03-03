@@ -1,1 +1,1 @@
-# Suricata-Ids-Project
+# Suricata-IDS-Project
